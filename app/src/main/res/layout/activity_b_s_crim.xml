@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#55B658"
+    tools:context="com.ucu.ecourse.BSCrim">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uculogo2"
+        />
+    <TextView
+
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:text="Bachelor of Science in Criminology"
+        />
+
+    <TextView
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The BS in Criminology focuses on the study of historical and contemporary patterns of crime and victimization, the social etiology of criminality, social responses to crime, and the processes of crime control. Criminologists combine theoretical and empirical methods to study crime and delinquency, including the manner in which offenders are processed. The functions and dynamics of the criminal justice system are studied in detail with emphasis on the linkage between these processes and various social institutions and organizations."/>
+</LinearLayout>

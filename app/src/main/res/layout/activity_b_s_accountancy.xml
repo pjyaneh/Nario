@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#55B658"
+    tools:context="com.ucu.ecourse.BSAccountancy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uculogo2"
+        />
+    <TextView
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:text="Bachelor of Science in Accountancy"
+        />
+
+    <Button
+        android:id="@+id/BSA_track"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:backgroundTint="#315C12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Tracks"/>
+    <TextView
+
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A bachelor's in accounting is the minimum degree required by many states if you want to qualify to be a Certified Public Accountant (CPA). Holding the CPA credential demonstrates that you've gained the level of education and experience you need to be considered qualified by the American Institute of Certified Public Accountants. It's earned when you've passed the Uniform CPA Examination, along with state-specific education and on-the-job experience requirements."/>
+
+</LinearLayout>

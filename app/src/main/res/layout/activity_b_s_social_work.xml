@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55B658"
+    android:orientation="vertical"
+    tools:context="com.ucu.ecourse.BSSocialWork">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uculogo2"
+        />
+
+    <TextView
+        android:textColor="@color/white"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Bachelor of Science in Social Work"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Bachelor of Science in Social Work is a four-year degree program designed to provide students with the knowledge and skills in social work practice, social welfare policies, and human welfare. It helps students understand the different units of society, such as families and communities, the problems and issues that surround them and the possible solutions that can empower and improve their way of living. The program aims to educate students on how to deal with different groups or individuals, including people who have disabilities, mental illnesses, criminal backgrounds, and addictions."/>
+
+</LinearLayout>

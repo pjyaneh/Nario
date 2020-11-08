@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#55B658"
+    tools:context="com.ucu.ecourse.ABCommunication">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uculogo2"
+        />
+    <TextView
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:text="Bachelor of Arts and Communication"
+        />
+    <TextView
+
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Bachelor of Arts in Communication is a four-year degree program intended for individuals who wish to pursue a career in the fields of media, advertising, public relations, and similar industries. It discusses how different media platforms are able to relay the information through verbal and non-verbal messages. Students also get a wider understanding of how communication works in interpersonal relationships, organizations, groups, and cultures. The course integrates the mastery of radio, television, print media, and other media platforms used for communication."/>
+
+</LinearLayout>

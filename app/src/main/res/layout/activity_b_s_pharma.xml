@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#55B658"
+    tools:context="com.ucu.ecourse.BSPharma">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uculogo2"
+        />
+    <TextView
+
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:text="Bachelor of Science in Pharmacy"
+        />
+    <TextView
+
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BS in Pharmacy is a four-year degree that focuses on training students on having the necessary knowledge and skills for various fields in the pharmaceutical industry. Pharmacists are the ones who distribute prescription drugs to individuals, as well as make sure that patients are using medications safely and effectively.
+
+Pharmacist is a kind of profession that requires a professional license. Graduates from this course must first take and pass the Pharmacist Licensure Examination from the Professional Regulatory Board of Pharmacy under the Professional Regulation Commission."/>
+
+</LinearLayout>

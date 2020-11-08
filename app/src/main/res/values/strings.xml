@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ECourse</string>
+
+
+    <string name="tab_title_main_1">Home</string>
+    <string name="tab_title_main_2">Course</string>
+    <string name="tab_title_main_3">Map</string>
+
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_neutral">Neutral</string>
+    <string name="dialog_close">Close</string>
+
+
+    <string name="nav_about">About</string>
+
+    <string name="main_not_found_email">Not found email app</string>
+
+
+    <string name="title_activity_recycler_view">RecyclerView</string>
+
+
+    <!-- String related to About -->
+    <string name="title_activity_about">About</string>
+    <string name="about_version">Version: </string>
+    <string name="about_email_intent">About:MaterialDesign</string>
+    <string name="about_not_found_email">Not found email app</string>
+    <string name="about_card1_title">UCU Course Guide</string>
+    <string name="about_card1_message">Hey, glad to see you!</string>
+    <string name="about_card2_title">If you liked the app, feel free to contact me.</string>
+
+    <string name="about_email">Feedback by E-mail</string>
+
+
+</resources>

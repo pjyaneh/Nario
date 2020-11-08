@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_main_1_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/main_card_margin_vertical"
+    android:layout_marginEnd="@dimen/main_card_margin_horizontal"
+    android:layout_marginStart="@dimen/main_card_margin_horizontal"
+    android:layout_marginTop="@dimen/main_card_margin_vertical"
+    android:background="?attr/selectableItemBackground"
+    android:foreground="?attr/selectableItemBackground"
+    card_view:cardCornerRadius="@dimen/card_recycler_corner_radius"
+    card_view:cardElevation="@dimen/card_recycler_elevation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_main_card_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logoucu"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_card_main_1_title"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_main_card_1"
+            android:layout_marginEnd="@dimen/card_title_margin"
+            android:layout_marginStart="@dimen/card_title_margin"
+            android:layout_marginTop="@dimen/card_title_margin_top"
+            android:text="What is teen depression?"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/tv_card_main1_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_card_main_1_title"
+            android:layout_marginBottom="@dimen/card_subtitle_margin"
+            android:layout_marginEnd="@dimen/card_subtitle_margin"
+            android:layout_marginStart="@dimen/card_subtitle_margin"
+            android:layout_marginTop="@dimen/card_button_margin"
+            android:text="The teenage years can be really tough and it’s perfectly normal to feel sad or irritable every now and then. But if these feelings don’t go away or become so intense that you feel overwhelmingly hopeless and helpless, you may be suffering from depression.
+
+Teen depression is much more than feeling temporarily sad or down in the dumps. It’s a serious and debilitating mood disorder that can change the way you think, feel, and function in your daily life, causing problems at home, school, and in your social life. When you’re depressed, you may feel hopeless and isolated and it can seem like no one understands. But depression is far more common in teens than you may think. The increased academic pressures, social challenges, and hormonal changes of the teenage years mean that about one in five of us suffer with depression in our teens. You’re not alone and your depression is not a sign of weakness or a character flaw.
+
+Even though it can feel like the black cloud of depression will never lift, there are plenty of things you can do to help yourself deal with symptoms, regain your balance and feel more positive, energetic, and hopeful again."/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
